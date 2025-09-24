@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/vscode-devdays-mcp-game/static/js/main.f1f2b8cb.js",
+    "index.html": "/vscode-devdays-mcp-game/index.html",
+    "main.f1f2b8cb.js.map": "/vscode-devdays-mcp-game/static/js/main.f1f2b8cb.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f1f2b8cb.js"
+  ]
+}
