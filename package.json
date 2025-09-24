@@ -1,0 +1,40 @@
+{
+  "name": "vscode-devdays-mcp-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A modern, MCP-enabled quiz game inspired by VS Code Dev Days themes.",
+  "homepage": "https://nagagopi-in.github.io/vscode-devdays-mcp-game/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+    ,"predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.24",
+    "@types/react-dom": "^18.3.7",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "typescript": "^5.0.0"
+    ,"gh-pages": "^6.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
